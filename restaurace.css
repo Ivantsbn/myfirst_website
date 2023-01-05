@@ -1,0 +1,450 @@
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0px 150px;
+}
+
+.header {
+    background-image: url(bg.jpg);
+    height:  100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-style: 14px;
+    margin-right: 25px;
+    margin-left: 10px;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: red;
+}
+
+.cart {
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 60px;
+    position: relative;
+}
+
+.cart-img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s linear;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.num:nover {
+    color: red;
+}
+
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px 18px;
+    font-weight: 700;
+    transition: background-color 0.2s linear;
+    margin: 50px;
+    margin-top: 80px;
+}
+.btn {
+    padding-top: 10px;
+}
+
+.button:hover {
+    background-color: #894b17;
+}
+
+.header-title {
+    color: #D67E35;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 200px;
+}
+
+.header-button {
+    background-color: #FF7400;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin-left: 95px;
+
+}
+.header-button:hover {
+    color: red;
+    transition: color 0.3s linear;
+}
+
+.card-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: 500px;
+    padding: 10px 15px;
+}
+.card-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 130px;
+}
+.card_title span {
+    color: #D67E35;
+}
+
+.card-desc {
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    color: #656363;
+    font-weight: 400;
+}
+.card_title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 25px;
+}
+
+.history {
+    margin-top: 166px;
+    padding-bottom: 200px;
+}
+.history_title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.history_title span {
+    color: #D67E35;
+}
+
+.history_desc {
+    color: #656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+}
+.history_number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.history_item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 45px;
+    color: #bc9060;
+}
+.history_item span {
+    display: block;
+    color: black;
+    font-size: 25px;
+}
+.history_images {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.img1 {
+    position: absolute;
+    z-index: 0;
+    top: -320px;
+    left: 860px;
+    width: 190px;
+}
+.img2 {
+    position: absolute;
+    z-index: 999;
+    top: -290px;
+    left: 600px;
+    scale: 100%;
+    width: 240px;
+}
+.img3 {
+    position: absolute;
+    z-index: 999;
+    top: -65px;
+    left: 900px;
+    width: 210px;
+}
+.black_block {
+    background-image: url(black_bg.jpg);
+    padding: 80px 0;
+}
+.left_title {
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 52px;
+    font-weight: 400;
+}
+.left_text {
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+}
+.left_text span {
+    font-weight: 600;
+}
+.right_btn {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px 18px;
+    font-weight: 600;
+    transition: background-color 0.2s linear;
+    margin: 50px;
+    margin-top: 80px;
+    transition: color 0.3s linear;
+}
+.block_holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.right_btn:hover {
+    color: red;
+}
+.dishec_title {
+    color: black;
+    font-family: 'Tinos', serif;
+    font-size: 52px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 40px;
+}
+
+.dishec_title span {
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.pizza-image {
+    margin-top: -4px;
+    margin-right: 20px;
+}
+
+.burgers {
+    display: flex;  
+    justify-content: center;  
+}
+
+.burger-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.burger-text {
+    font-family: 'Tinos', serif;
+    font-size:  20px;
+    margin-left: 15px;
+}
+
+.menu {
+    background-image: url(menu_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.menu-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    padding-top: 98px;
+    color: white;
+    text-align: center;
+    padding-bottom: 138px;
+}
+
+.menu-item {
+    background-color: white;
+    text-align: center;
+    width: 25%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+}
+
+.menu-text {
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+
+.menu-subtext {
+    font-size: 18px;
+    font-family: 'Tinos', serif;
+}
+
+.menu-btn {
+    background-color: #D67E35;
+    text-decoration: none;
+    padding:  14px 67px;
+    color: white;
+    font-size: 16px;
+    font-weight: ;
+}
+.menu-button {
+    margin-top: 20px;
+}
+.price-image {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+}
+.menu-image {
+    position: relative;
+}
+.price-249 {
+    position: absolute;
+    bottom: 32px;
+    right: 56px;
+    color: white;
+    font-size: 30px;
+    
+}
+.menu-items {
+    display: flex;
+    justify-content: center;
+}
+.coment {
+    background-color: #E5E5E5;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+
+.coment-text {
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.coment-img {
+    border-radius: 50px;
+}
+.coment-iamge {
+    text-align: center;
+}
+.coment-type {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.coment-name {
+    padding-top: 9px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.galery-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 60px;
+}
+.galery-title span {
+    color: #D67E35;
+}
+.galery-content {
+    display: flex;
+    justify-content: center;
+}
+.galery-left {
+    margin-right: 20px;
+}
+.galery-down, .galery-up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cook {
+    padding-bottom: 100px;
+}
+.cook-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.cook-title span {
+    color: #D67E35;
+}
+.cook-content {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    background-color: #000;
+    padding: 50px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.final-photo {
+    background-image: url(final-photo.jpg);
+}
